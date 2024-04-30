@@ -1,0 +1,28 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "Install pipenv by running pip install pipenv.",
+      "name": "Install pipenv by running pip install pipenv."
+    },
+    {
+      "command": "Navigate to the root directory of the project and run pipenv install to create the virtual environment and install the required dependencies.",
+      "name": "Navigate to the root directory of the project and run pipenv install to create the virtual environment and install the required dependencies."
+    },
+    {
+      "command": "Create a .env file in the root directory of the project, and add the following environmental variables: SECRET_KEY, SENDGRID_API_KEY, appCertificate, and appID with their respective values. These variables are required for Squaak to work properly.",
+      "name": "Create a .env file in the root directory of the project, and add the following environmental variables: SECRET_KEY, SENDGRID_API_KEY, appCertificate, and appID with their respective values. These variables are required for Squaak to work properly."
+    },
+    {
+      "command": "Run the migrations by running python manage.py migrate.",
+      "name": "Run the migrations by running python manage.py migrate."
+    },
+    {
+      "command": "Create a superuser by running python manage.py createsuperuser.",
+      "name": "Create a superuser by running python manage.py createsuperuser."
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {}
+}
